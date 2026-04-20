@@ -1,4 +1,4 @@
-baseURL = 'https://berkturgut.github.io/personel-website/'
+baseURL = 'https://berkturgut.com/'
 title = 'Berk Turgut'
 theme = 'hugo-coder'
 languageCode = 'tr'
@@ -6,11 +6,12 @@ defaultContentLanguage = 'tr'
 
 [params]
     author = "Berk Turgut"
-    description = "Kişisel web sitem"
-    keywords = "blog,developer,personal"
+    description = "Yazılım Geliştirici & Teknoloji Meraklısı"
+    keywords = "blog,developer,personal,yazılım"
     info = ["Software Developer", "Tech Enthusiast"]
     avatarURL = "images/avatar.jpg"
     colorScheme = "auto"
+    since = 2024
 
 [[params.social]]
     name = "Github"
@@ -23,3 +24,16 @@ defaultContentLanguage = 'tr'
     icon = "fa-brands fa-linkedin fa-2x"
     weight = 2
     url = "https://www.linkedin.com/in/berkturgut/"
+
+[languages.tr]
+    languageName = "Türkçe"
+
+[[languages.tr.menu.main]]
+    name = "Hakkımda"
+    weight = 1
+    url = "about/"
+
+[[languages.tr.menu.main]]
+    name = "Blog"
+    weight = 2
+    url = "posts/"
