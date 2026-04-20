@@ -1,0 +1,25 @@
+baseURL = 'https://example.org/'
+title = 'Berk Turgut'
+theme = 'hugo-coder'
+languageCode = 'tr'
+defaultContentLanguage = 'tr'
+
+[params]
+    author = "Berk Turgut"
+    description = "Kişisel web sitem"
+    keywords = "blog,developer,personal"
+    info = ["Software Developer", "Tech Enthusiast"]
+    avatarURL = "images/avatar.jpg"
+    colorScheme = "auto"
+
+[[params.social]]
+    name = "Github"
+    icon = "fa-brands fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/berkturgut/"
+
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fa-brands fa-linkedin fa-2x"
+    weight = 2
+    url = "https://www.linkedin.com/in/berkturgut/"
